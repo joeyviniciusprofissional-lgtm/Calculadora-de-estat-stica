@@ -1,4 +1,4 @@
-# 1 - Entrada de dados
+#Entrada de dados
 
 N1 = float(input("Digite o primeiro número: "))
 N2 = float(input("Digite o segundo número: "))
@@ -7,17 +7,17 @@ N4 = float(input("Digite o quarto número: "))
 
 dados = [N1, N2, N3, N4]
 
-# 2 - Exibir opcções para o usuário escolher
+#Exibir opcções para o usuário escolher
 print("Escolha a operação que deseja realizar:")
 print("1 - Média")
 print("2 - Moda")
 print("3 - Mediana")
 
-# 3 - Receber a escolha do usuário
+#Receber a escolha do usuário
 opcao = input("Digite o número da operação desejada:")
 print("Você escolheu a opção:", opcao)
 
-# 4 - Realizar a operação escolhida
+#Realizar a operação escolhida
 
 if opcao == "1":
     #Soma dos numeros e dividir pela quantidade
